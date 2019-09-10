@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<head>
+		<title>Simon</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="Simon.js"></script>
+		<style>
+			.color-btn{
+				box-shadow: 0px 1px 2px 2px #737373;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid" style="margin-top: 6%">
+			<div class="row">
+				<div class="col-md-4 col-sm-0"></div>
+				<div class="col-md-4 col-sm-12">
+					<div class="text-align: center" id="start">
+						<h1>
+							<a style="color: #F4B400">
+								<span style="color: #4285F4">Click</span>
+								<span style="color: #DB4437">here</span>
+								<span style="color: #F4B400">to</span>
+								<span style="color: #0F9D58">begin!</span>
+							</a>
+						</h1>
+						<h5>Watch the computer play a sequence and follow along.</h5>
+					</div>
+					<div class="container-fluid" id="game" style="margin-left: 15px" hidden>
+						<h1 id="score" style="text-align: center; margin-right: 23px;">0</h1>
+						<div class="row">
+							<div class="col-md-6 col-sm-2">
+								<div class="img img-thumbnail color-btn" id="blue" style="background-color: #4285F4; border-color: #4285F4"></div>
+							</div>
+							<div class="col-md-6 col-sm-2">
+								<div class="img img-thumbnail color-btn" id="red" style="background-color: #DB4437; border-color: #DB4437"></div>
+							</div>
+						</div>
+						<div class="row" style="margin-top: 40px">
+							<div class="col-md-6 col-sm-2">
+								<div class="img img-thumbnail color-btn" id="yellow" style="background-color: #F4B400; border-color: #F4B400"></div>
+							</div>
+							<div class="col-md-6 col-sm-2">
+								<div class="img img-thumbnail color-btn" id="green" style="background-color: #0F9D58; border-color: #0F9D58"></div>
+							</div>
+						</div>
+						<h4 id="player" style="text-align: center; margin-right: 23px; margin-top: 20px">Computer is playing.</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
