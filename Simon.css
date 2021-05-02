@@ -1,0 +1,57 @@
+:root {
+    --blue: #4285F4;
+    --red: #DB4437;
+    --yellow: #F4B400;
+    --green: #0F9D58;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.red {
+    color: var(--red);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+.link {
+    cursor: pointer;
+}
+
+.color-btn{
+    box-shadow: 0px 1px 2px 2px #737373;
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
+}
+
+.color-btn:hover{
+    cursor: pointer;
+}
+
+.color-btn.blue {
+    background-color: var(--blue); 
+    border-color: var(--blue);
+}
+
+.color-btn.red {
+    background-color: var(--red); 
+    border-color: var(--red);
+}
+
+.color-btn.yellow {
+    background-color: var(--yellow); 
+    border-color: var(--yellow);
+}
+
+.color-btn.green {
+    background-color: var(--green); 
+    border-color: var(--green);
+}

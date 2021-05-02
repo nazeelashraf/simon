@@ -58,7 +58,7 @@ $(document).ready(
 			function(e){
 				e.preventDefault();
 				$(this).slideUp(500);
-				$("#game").slideDown(500);
+				$("#game").attr('hidden', false).slideDown(500);
 				
 				//button interaction
 				colors.forEach(
